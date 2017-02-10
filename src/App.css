@@ -40,9 +40,14 @@
   padding: 0 1em;
 }
 
-.App-instructions code {
+.App-instructions pre {
   background-color: #222;
   color: #00d8ff;
   padding: .2em .3em;
   border-radius: .2em;
+  text-align: left;
+}
+
+.Logout {
+  font-size: 0.5em;
 }

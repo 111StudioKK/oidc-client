@@ -1,19 +1,23 @@
 {
   "name": "oidc_client",
   "version": "1.0.0",
-  "description": "Describe oidc_client here",
+  "description": "A testing app to test OIDC from end to end",
   "private": true,
   "scripts": {
+    "start": "serve ./dist --single",
     "build": "nwb build-react-app",
     "clean": "nwb clean-app",
-    "start": "nwb serve-react-app",
+    "dev": "nwb serve-react-app",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "oidc-client": "^1.3.0-beta.2",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-router-dom": "next",
+    "serve": "^3.2.7"
   },
   "devDependencies": {
     "nwb": "0.15.x"
